@@ -1,4 +1,6 @@
 # Application_Monitoring
+![image](https://github.com/user-attachments/assets/91de9b1a-2dc2-48ad-b28c-6594e5712391)
+
 # Running  the Project
   ### Start all the containers
   sudo docker-compose up --build
