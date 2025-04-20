@@ -4,6 +4,7 @@
 # Running  the Project
   ### Start all the containers
   sudo sudo docker-compose down
+  
   sudo docker-compose up --build
   ### Start workload script separately:
   python workload/simulate.py
