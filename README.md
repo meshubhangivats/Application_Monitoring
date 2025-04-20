@@ -6,6 +6,11 @@
   sudo sudo docker-compose down
   
   sudo docker-compose up --build
+
+  ### Check if all 6 docker instances are runing 
+  
+  sudo docker ps
+  
   ### Start workload script separately:
   python workload/simulate.py
   ### Setup Grafana: http://localhost:3000/ (Login: admin / admin)
