@@ -19,3 +19,21 @@
     SELECT error_message, COUNT(*) FROM logs WHERE error_message IS NOT NULL GROUP BY error_message
    #### Live Logs:
     SELECT timestamp, endpoint, status_code, error_message FROM logs ORDER BY timestamp DESC LIMIT 100
+
+# Debugging 
+## Access the container 
+  Check the container ID in ‘sudo docker ps’ o/p
+  sudo docker exec -it <container_id> bash
+## Debugging DB Container
+   mariadb -u root -p  <- provide password as rootpass 
+   
+   SHOW DATABASES;
+   
+   USE logs;
+   
+   SHOW TABLES;
+   
+   DESCRIBE logs;
+   
+   SELECT * FROM logs;
+
