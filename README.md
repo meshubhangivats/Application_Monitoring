@@ -33,6 +33,8 @@
 ## Access the container 
   Check the container ID in ‘sudo docker ps’ o/p
   sudo docker exec -it <container_id> bash
+  
+  check process listing using command: ps -aef
 ## Debugging DB Container
    mariadb -u root -p  <- provide password as rootpass 
    
